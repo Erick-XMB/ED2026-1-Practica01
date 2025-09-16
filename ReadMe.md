@@ -18,13 +18,19 @@ El primero es para compilar y el segundo es para ejecutar las pruebas unitarias.
 
 En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integrante n" y escribir su nombre empezando por apellidos y su número de cuenta.
 
-    +Integrante 1
-        -No. de Cuenta: 
+    +Martinez Briones Erick Xavier
+        -No. de Cuenta: 426007742
     +Integrante 2
         -No. de Cuenta: 
     +Integrante 3
         -No. de Cuenta: 
 
 ## Comentarios
+- Para ejecutar las funciones colocar el nombre las funciones para posteriormente realizar las pruebas necesarias
 
-Recuerden que opcionalmente pueden agregar un comentario (ver los lineamientos de entrega). Si es el caso, borren esta linea y dejen su comentario.
+- Seguir las instrucciones de ejecución que se especifican en algunos ejercicios
+
+- Para los ejercicios de la sección "Números naturales" ademas de ingresar el nombre de la función que desea ejecutar como normalmente se hace, ingresar el número natural con paréntesis. 
+  - Ejemplo:
+  (Suc (Suc (Suc Cero))) ---- Es correcto.
+  Suc (Suc (Suc Cero)) ------ Es incorrecto.
