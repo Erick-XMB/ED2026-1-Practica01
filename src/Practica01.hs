@@ -12,8 +12,7 @@ esDivisor x y = if y `mod` x == 0 then True else False
 
 ---- Ejercicio No 3 ----
 cuadratica :: Float -> Float -> Float -> Float -> Float
-cuadratica a b c v = a**v^2 + b**v + c
--- "**" es para hacer potencia usando float
+cuadratica a b c v = (a * (v*v)) + (b*v) + c 
 
 ---- Ejercicio No 4 ----
 sumaFracciones :: (Int, Int) -> (Int, Int) -> (Int, Int)
