@@ -20,10 +20,8 @@ En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integra
 
     +Martinez Briones Erick Xavier
         -No. de Cuenta: 426007742
-    +Integrante 2
-        -No. de Cuenta: 
-    +Integrante 3
-        -No. de Cuenta: 
+    +Quintana López Luis Fernando
+        -No. de Cuenta: 323023092 
 
 ## Comentarios
 - Para ejecutar las funciones colocar el nombre las funciones para posteriormente realizar las pruebas necesarias
