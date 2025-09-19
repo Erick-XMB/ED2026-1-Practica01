@@ -34,3 +34,12 @@ En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integra
   - Ejemplo:
   (Suc (Suc (Suc Cero))) ---- Es correcto.
   Suc (Suc (Suc Cero)) ------ Es incorrecto.
+
+
+- Por alguna razón las pruebas unitarias no funcionaban.Según pudimos investigar, el problema estaba relacionado con la versión de una de las dependencias. Por ello, para poder correr las pruebas unitarias fue necesario modificar el archivo Practica01.cabal para reemplazar esta línea: 
+    - build-depends:    base ^>=4.21.0.0 
+
+- La linea de codigo modificada quedó de la siguiente manera: 
+    - build-depends:    base ^>=4.15.1.0
+
+- Nos parece importante mencionarlo, pues no tenemos certeza de que el modificar esa línea pueda ocasionar algún tipo de problema. 
