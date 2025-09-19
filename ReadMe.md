@@ -18,9 +18,9 @@ El primero es para compilar y el segundo es para ejecutar las pruebas unitarias.
 
 En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integrante n" y escribir su nombre empezando por apellidos y su número de cuenta.
 
-    +Martinez Briones Erick Xavier
+    Martinez Briones Erick Xavier
         -No. de Cuenta: 426007742
-    +Quintana López Luis Fernando
+    Quintana López Luis Fernando
         -No. de Cuenta: 323023092 
 
 ## Comentarios
@@ -30,8 +30,8 @@ En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integra
 
 - Para los ejercicios de la sección "Números naturales" ademas de ingresar el nombre de la función que desea ejecutar como normalmente se hace, ingresar el número natural con paréntesis. 
   - Ejemplo:
-  (Suc (Suc (Suc Cero))) ---- Es correcto.
-  Suc (Suc (Suc Cero)) ------ Es incorrecto.
+  - (Suc (Suc (Suc Cero))) ---- Es correcto.
+  - Suc (Suc (Suc Cero)) ------ Es incorrecto.
 
 
 - Por alguna razón las pruebas unitarias no funcionaban. Según pudimos investigar, el problema estaba relacionado con la versión de una de las dependencias. Por ello, para poder correr las pruebas unitarias fue necesario modificar el archivo Practica01.cabal para reemplazar esta línea: 
