@@ -36,7 +36,7 @@ En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integra
   Suc (Suc (Suc Cero)) ------ Es incorrecto.
 
 
-- Por alguna razón las pruebas unitarias no funcionaban.Según pudimos investigar, el problema estaba relacionado con la versión de una de las dependencias. Por ello, para poder correr las pruebas unitarias fue necesario modificar el archivo Practica01.cabal para reemplazar esta línea: 
+- Por alguna razón las pruebas unitarias no funcionaban. Según pudimos investigar, el problema estaba relacionado con la versión de una de las dependencias. Por ello, para poder correr las pruebas unitarias fue necesario modificar el archivo Practica01.cabal para reemplazar esta línea: 
     - build-depends:    base ^>=4.21.0.0 
 
 - La linea de codigo modificada quedó de la siguiente manera: 
