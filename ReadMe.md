@@ -40,4 +40,4 @@ En esta sección deben eliminar esta línea de texto, borrar la leyenda "Integra
 - La linea de codigo modificada quedó de la siguiente manera: 
     - build-depends:    base ^>=4.15.1.0
 
-- Nos parece importante mencionarlo, pues no tenemos certeza de que el modificar esa línea pueda ocasionar algún tipo de problema. 
+- Nos parece importante mencionarlo, pues no tenemos certeza de que el modificar esa línea pueda ocasionar algún tipo de problema.  
